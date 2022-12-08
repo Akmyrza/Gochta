@@ -16,6 +16,8 @@ type Origin struct {
 func main() {
 
 	//123123123123
+	//new comment
+
 	var wg sync.WaitGroup
 	var origin []Origin
 	block := []int{}

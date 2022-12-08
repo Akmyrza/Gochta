@@ -1,6 +1,6 @@
 package main
 
-func dev()
+func dev() 
 {
 	var max int = 64
 }
