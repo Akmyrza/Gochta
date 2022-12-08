@@ -11,7 +11,7 @@ import (
 func main() {
 
 	var offset int64 = 10
-	var limit int64 = 1024 * 1024 * 100
+	var limit int64 = 1024 * 1024 * 500
 	
 	inputFile, err := os.Open("input.txt")
 	if err != nil {
@@ -22,7 +22,7 @@ func main() {
 	if err!= nil {
 		log.Fatal("Can't open output file!")
 	}
-	
+
 	reader := io.NewSectionReader(inputFile, offset, limit)
 	writer := outputFile
 
